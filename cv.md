@@ -14,7 +14,7 @@ My goal is to become a Front-end developer. To do this, I need to improve my the
 - Git
 - Photoshop, Figma
 - Code Editor (Visual Studio Code)
-- 
+
 ## Code examples
 _This code creates the function that receives n and returns n!._
 ```
@@ -28,11 +28,11 @@ return n * factorial(n - 1);
 ```
 
 ## Experience
-IT-Academy "Website development with HTML, CSS, JavaScript"
+IT-Academy "Website development with HTML, CSS, JavaScript".
 
 ## Education
 Belarusian State Technological University "Machines and devices for chemical production and building materials enterprises"
-Belarusian State Technological University "Economics and Management at Chemical Industry Enterprises"
+Belarusian State Technological University "Economics and Management at Chemical Industry Enterprises".
 
 ## English Level
-Pre-intermediate
+Pre-intermediate (I read books and articles, watch videos in English, try to improve my language skills).
