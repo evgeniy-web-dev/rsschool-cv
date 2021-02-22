@@ -14,3 +14,18 @@ My goal is to become a Front-end developer. To do this, I need to improve my the
 - Git
 - Photoshop, Figma
 - Code Editor (Visual Studio Code)
+- 
+## Code examples
+_This code creates the function that receives n and returns n!._
+```
+let factorial = n => {
+if (n == 0) {
+return 1;
+} else {
+return n * factorial(n - 1);
+}
+};
+```
+
+## Experience
+IT-Academy "Website development with HTML, CSS, JavaScript"
