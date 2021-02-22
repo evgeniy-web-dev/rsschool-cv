@@ -31,7 +31,7 @@ return n * factorial(n - 1);
 IT-Academy "Website development with HTML, CSS, JavaScript".
 
 ## Education
-Belarusian State Technological University "Machines and devices for chemical production and building materials enterprises"
+Belarusian State Technological University "Machines and devices for chemical production and building materials enterprises".
 Belarusian State Technological University "Economics and Management at Chemical Industry Enterprises".
 
 ## English Level
