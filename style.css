@@ -23,3 +23,44 @@ h1, h3 {
 	margin: 0 auto;
 	display: flex;
 	}
+
+/* ЛЕВАЯ КОЛОНКА */
+
+.block__left {
+	height: 760px;
+	background-color: #0A3542;
+	color: #FFF;
+}
+
+.block__left-info {
+	padding-top: 55px;
+	padding-left: 50px;
+}
+
+.block__left-title {
+	border-bottom-style: solid;
+	padding-bottom: 5px;
+	width: 250px;
+	border-width: 1px;
+	padding-top: 40px; 
+	}
+
+.font {
+	font-size: 13px;
+	}
+
+.link__left {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	}
+
+a:hover { 
+	color: red; 
+	}
+
+.block__hobbies {
+	padding-left: 15px;
+	}
