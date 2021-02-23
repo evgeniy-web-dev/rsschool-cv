@@ -64,3 +64,39 @@ a:hover {
 .block__hobbies {
 	padding-left: 15px;
 	}
+
+/* ПРАВАЯ КОЛОНКА */
+
+.col__right {                 
+	background-color: white; 
+	color: #0A3542; 
+	width: 780px;
+	
+	}
+
+.block__right-info {
+	padding-left: 10px;
+	padding-right: 40px;
+	}
+
+.block__right-title {
+	border-bottom-style: solid;
+	padding-bottom: 5px;
+	width: 680px;
+	border-width: 2px;
+	padding-top: 40px; 
+	margin-left: 40px;
+	}
+
+.block__right-p {
+	padding-left: 40px;
+	}
+
+.block__right-a {
+	color: #0A3542;
+	}
+
+.block__right-li {
+	margin-left: 20px;
+	margin-top: 5px;
+	}
