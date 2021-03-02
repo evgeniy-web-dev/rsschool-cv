@@ -3,82 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume - Yauheni Mitskevich</title>
-    <link rel="icon" href="images/icons.png" type="icon/png">
+    <title>CV - Yauheni Mitskevich</title>
+    <link rel="icon" href="./images/icons.png" type="icon/png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="header">
+        <h2 class="header-title">Welcome to my CV page</h2>
+    </header>
+
     <main class="main">
+        <!-- Левая колонка -->
         <section class="col__left">
-            <img src="./images/img.jpg" alt="Photo" title="Yauheni Mitskevich" width="350">
+            <figure class="figure">
+                <img src="./images/img.jpg" alt="My photo" title="Yauheni Mitskevich">
+            </figure>
             <div class="block__left">
                 <div class="block__left-info">
 
-                    <h1>Yauheni<br>Mitskevich</h1>
-                    
+                    <!-- Contact -->
                     <h3 class="block__left-title">Contact</h3>
-        
-                    <p>&#x260E; <a class="link__left" title="Phone number" href="tel:+375297871268">+375 29 787-12-68</a></p>
-                    <a class="link__left font" title="Viber" href="viber://add?number=375297871268">Viber </a>
-                    <a class="link__left font" title="Telegram" href="tg://resolve?domain=suportttu">Telegram </a>
-                    <a class="link__left font" title="WhatsApp" href="whatsapp://send?phone=+375297871268">WhatsApp</a>
-            
-                    <p>&#9993; <a class="link__left" title="E-mail" href="https://e.mail.ru/inbox/?back=1&afterReload=1" target="_blank">vem-89@mail.ru</a></p>
+                    <ul class="block__left-list">
+                        <li><p class="contact-item">&#x260E; <a class="link__left" title="My number" href="tel:+375297871268">+375 29 787-12-68</a></p></li>
+                        <li><p class="contact-item"><a class="link__left" title="Viber" href="viber://add?number=375297871268">Viber</a>
+                            <a class="link__left" title="Telegram" href="tg://resolve?domain=suportttu">Telegram</a>
+                            <a class="link__left" title="WhatsApp" href="whatsapp://send?phone=+375297871268">WhatsApp</a></p></li>
+                
+                        <li><p class="contact-item">&#9993; <a class="link__left" title="E-mail" href="https://e.mail.ru/inbox/?back=1&afterReload=1" target="_blank">vem-89@mail.ru</a></p></li>
 
-                    <p>Linkedin: <a class="link__left" href="https://www.linkedin.com/feed/" target="_blank">My profile</a></p>
+                        <li><p class="contact-item">Linkedin: <a class="link__left" href="https://www.linkedin.com/feed/" target="_blank">my profile</a></p></li>
+                    </ul>
+                    <!-- // Contact -->
 
+                    <!-- Technical Skills -->
+                    <h3 class="block__left-title">Technical Skills</h3>
+                    <ul class="block__left-list">
+                        <li>HTML5, CSS3, JavaScript</li>
+                        <li>Flex, Grid</li>
+                        <li>less, Sass, БЭМ</li>
+                        <li>Bootstrap, jQuery</li>
+                        <li>Git</li>
+                        <li>Photoshop, Figma</li>
+                        <li>Visual Studio Code</li>
+                    </ul>
+                    <!-- // Technical Skills -->
+
+                    <!-- Portfolio -->
                     <h3 class="block__left-title">Portfolio</h3>
-                    <p><a class="link__left" href="https://evgeniy-web-dev.github.io/portfolio/" target="_blank">https://evgeniy-web-dev.github.io/portfolio/</a></p>
-                    
-                    <h3 class="block__left-title">Hobbies</h3>
+                    <p class="block__left-portfolio"><a class="link__left" href="https://evgeniy-web-dev.github.io/portfolio/" target="_blank">See projects</a></p>
+                    <!-- // Portfolio -->
 
-                    <ul class="block__hobbies">
+                    <!-- Hobbies -->
+                    <h3 class="block__left-title">Hobbies</h3>
+                    <ul class="block__left-list">
                         <li>sport, travel, auto, snowboard</li>
                         <li>chess, psychology</li>
                         <li>80s music, theater, cinema</li>
                         <li>world classics and literature</li>
                     </ul>
+                    <!-- // Hobbies -->
                 </div>
             </div>
         </section>
 
-
+        <!-- Правая колонка -->
         <section class="col__right">
             <div class="block__right-info">
 
+                <h1 class="name">Yauheni<br>Mitskevich</h1>
+
+                <!-- Summary -->
                 <h3 class="block__right-title">Summary</h3>
-                <p class="block__right-p">My goal is to become a Front-end developer. To do this, I need to improve my theoretical knowledge, gain practical experience in creating web-applications and sites. I have a learning ability, analytical thinking, attentive to details, self-organization, a willingness to work in an excellent multitasking mode</p>
+                <p class="summary-text">My goal is to become a Front-end developer. To do this, I need to improve my theoretical knowledge, gain practical experience in creating web-applications and sites. I have a learning ability, analytical thinking, attentive to details, self-organization, a willingness to work in an excellent multitasking mode</p>
+                <!-- // Summary -->
 
+                <!-- Education -->
                 <h3 class="block__right-title">Education</h3>
-
-                <ul class="block__right-li">
-                    <li class="education-li"><strong>Educational Center for Programming and High Tech</strong><br>
-                        "Website development with HTML, CSS, JavaScript"</li>
-                    <li class="education-li"><strong>Belarusian State Technological University</strong><br>
+                <ul class="education-list">
+                    <li class="education-item"><b>Belarusian State Technological University, 2017</b><br>
                         "Economics and Management at Chemical Industry Enterprises"</li>
-                    <li class="education-li"><strong>Belarusian State Technological University</strong><br>
+                    <li class="education-item"><b>Belarusian State Technological University, 2012</b><br>
                         "Machines and devices for chemical production and building materials enterprises"</li>
                 </ul>
-           
-                <h3 class="block__right-title">Technical Skills</h3>
-                    <ul class="block__right-li">
-                        <li>HTML5, CSS3, JavaScript</li>
-                        <li>Flex, Grid</li>
-                        <li>less, Sass, БЭМ</li>
-                        <li>jQuery, Bootstrap</li>
-                        <li>Git</li>
-                        <li>Photoshop, Figma</li>
-                        <li>Code Editor (Visual Studio Code)</li>
-                    </ul>
+                <!-- // Education -->
 
+                <!-- Course -->
+                <h3 class="block__right-title">Course</h3>
+                <p class="course-text"><b>IT-Academy. Educational Center for Programming and High Tech, 2020</b><br>
+                    "Website development with HTML, CSS, JavaScript"</p>
+                <!-- // Course -->
+                
+                <!-- Experience -->
                 <h3 class="block__right-title">Experience</h3>
+                <p class="experience-text">My projects can be found at the following link:
+                <a class="experience-link" href="https://github.com/evgeniy-web-dev" target="_blank">Github</a></p>
+                <!-- // Experience -->
 
-                <p class="block__right-p">My projects can be found at the following link:
-                <a class="block__right-a" href="https://github.com/evgeniy-web-dev" target="_blank">Github</a></p>
-
+                <!-- English Level -->
                 <h3 class="block__right-title">English Level</h3>
-                <p class="block__right-p">Pre-intermediate A2<br>
+                <p class="english-text">Pre-intermediate (A2)<br>
                 I read books and articles, watch videos in English, try to improve my language skills</p>
+                <!-- // English Level -->
             </div>    
         </section>
     </main>
