@@ -6,10 +6,13 @@
   <title>CV - Yauheni Mitskevich</title>
   <link rel="icon" href="./images/icons.png" type="icon/png">
   <link rel="stylesheet" href="./style.css">
+
+  <!-- AOS. 1) Подключение CSS стилей -->
+  <link href="./libs/aos/aos.css" rel="stylesheet">
 </head>
 <body>
   <header class="header">
-    <h2 class="header-title">Welcome to my CV page</h2>
+    <h2 class="header-title" data-aos="fade-left">Welcome to my CV page</h2>
   </header>
   <main class="main">
 
@@ -86,10 +89,10 @@
     <!-- Right column -->
     <section class="col__right">
       <div class="block__right-info">
-        <h1 class="name">Yauheni<br>Mitskevich</h1>
+        <h1 class="name" data-aos="zoom-in" data-aos-delay="400">Yauheni<br>Mitskevich</h1>
 
         <!-- Summary -->
-        <h3 class="block__right-title">Summary</h3>
+        <h3 class="block__right-title" data-aos="fade-left" data-aos-delay="700">Summary</h3>
         <p class="summary-text">
           My goal is to become a Front-end developer. To do this, I need to improve my theoretical 
           knowledge, gain practical experience in creating web applications and websites. 
@@ -99,7 +102,7 @@
         <!-- // Summary -->
 
         <!-- Education -->
-        <h3 class="block__right-title">Education</h3>
+        <h3 class="block__right-title" data-aos="fade-left" data-aos-delay="900">Education</h3>
         <ul class="education-list">
           <li class="education-item"><b>Belarusian State Technological University, 2017</b><br>
             "Economics and Management at Chemical Industry Enterprises"
@@ -111,7 +114,7 @@
         <!-- // Education -->
 
         <!-- Course -->
-        <h3 class="block__right-title">Course</h3>
+        <h3 class="block__right-title" data-aos="fade-left" data-aos-delay="1100">Course</h3>
         <ul class="education-list">
           <li class="education-item"><b>IT-Academy. Educational Center for Programming and High Tech, 2020</b><br>
             "Website development with HTML, CSS, JavaScript"
@@ -125,17 +128,17 @@
         <!-- // Course -->
                 
         <!-- Experience -->
-        <h3 class="block__right-title">Experience</h3>
+        <h3 class="block__right-title" data-aos="fade-left" data-aos-delay="1300">Experience</h3>
         <p class="experience-text">My projects can be found at the following link:
           <a class="experience-link" href="https://github.com/evgeniy-web-dev" target="_blank">Github</a>
         </p>
         <!-- // Experience -->
 
         <!-- English Level -->
-        <h3 class="block__right-title">English Level</h3>
+        <h3 class="block__right-title" data-aos="fade-left" data-aos-delay="1500">English Level</h3>
         <p class="english-text">Elementary (A2)
           <button class="btn" data-path="popup">Certificate</button><br>
-          I read books and articles, watch videos in English, try to improve my language skills
+          I read books and articles, watch videos in English, try to improve my language skills.
         </p>
         <!-- // English Level -->
 
@@ -184,5 +187,13 @@
   </footer>
 
   <script src="./script.js"></script>
+
+  <!-- AOS. 2) Подключение JS библиотеки -->
+  <script src="./libs/aos/aos.js"></script>
+    
+  <!-- AOS. 3) Вызов JS библиотеки -->
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
