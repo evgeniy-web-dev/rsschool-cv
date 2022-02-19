@@ -38,4 +38,4 @@ return n * factorial(n - 1);
 * Belarusian State Technological University "Economics and Management at Chemical Industry Enterprises", 2017
 
 ## English Level
-Elementary (A2) (I read books and articles, watch videos in English, try to improve my language skills).
+Pre-Intermediate (B1) I read literature, watch videos in English, go to courses, constantly improve my language skills).
